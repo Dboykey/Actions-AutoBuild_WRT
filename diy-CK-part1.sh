@@ -35,7 +35,6 @@ git clone https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 
 # package/lean/default-settings/files/zzz-default-settings
-# package/lean/default-settings/files/zzz-default-settings
 ##找到字符串“uci commit luci”后，在前面增加一行
 sed -i '/uci commit luci/i\\uci set luci.main.mediaurlbase=/luci-static/rosy' package/lean/default-settings/files/zzz-default-settings
 ##找到字符串“shadow”后，删除一行
