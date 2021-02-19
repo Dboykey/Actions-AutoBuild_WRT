@@ -1,0 +1,327 @@
+CONFIG_TARGET_x86=y
+CONFIG_TARGET_x86_64=y
+CONFIG_TARGET_x86_64_DEVICE_generic=y
+CONFIG_BUSYBOX_CUSTOM=y
+CONFIG_BUSYBOX_CONFIG_FEATURE_TC_INGRESS=y
+CONFIG_BUSYBOX_CONFIG_LSPCI=y
+CONFIG_BUSYBOX_CONFIG_LSUSB=y
+CONFIG_BUSYBOX_CONFIG_TC=y
+CONFIG_LIBCURL_COOKIES=y
+CONFIG_LIBCURL_FILE=y
+CONFIG_LIBCURL_FTP=y
+CONFIG_LIBCURL_HTTP=y
+CONFIG_LIBCURL_NO_SMB="!"
+CONFIG_LIBCURL_OPENSSL=y
+CONFIG_LIBCURL_PROXY=y
+CONFIG_LIBSSH2_OPENSSL=y
+CONFIG_LUCI_LANG_en=y
+CONFIG_MC_CHARSET=y
+CONFIG_MC_EDITOR=y
+CONFIG_MC_SUBSHELL=y
+CONFIG_MC_VFS=y
+CONFIG_OPENSSL_WITH_COMPRESSION=y
+CONFIG_OPENSSL_WITH_DTLS=y
+CONFIG_OPENSSL_WITH_EC2M=y
+CONFIG_OPENSSL_WITH_NPN=y
+CONFIG_PACKAGE_6in4=y
+# CONFIG_PACKAGE_autosamba is not set
+CONFIG_PACKAGE_bash=y
+CONFIG_PACKAGE_blkid=y
+CONFIG_PACKAGE_blockd=y
+CONFIG_PACKAGE_boost=y
+CONFIG_PACKAGE_boost-date_time=y
+CONFIG_PACKAGE_boost-program_options=y
+CONFIG_PACKAGE_boost-system=y
+CONFIG_PACKAGE_brook=y
+CONFIG_PACKAGE_bsdtar=y
+CONFIG_PACKAGE_btrfs-progs=y
+CONFIG_PACKAGE_bzip2=y
+CONFIG_PACKAGE_cfdisk=y
+CONFIG_PACKAGE_cgroupfs-mount=y
+CONFIG_PACKAGE_chinadns-ng=y
+CONFIG_PACKAGE_containerd=y
+CONFIG_PACKAGE_coreutils-nohup=y
+CONFIG_PACKAGE_curl=y
+CONFIG_PACKAGE_dnsmasq_full_auth=y
+CONFIG_PACKAGE_dnsmasq_full_broken_rtc=y
+CONFIG_PACKAGE_dnsmasq_full_conntrack=y
+CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
+CONFIG_PACKAGE_dnsmasq_full_dnssec=y
+CONFIG_PACKAGE_dnsmasq_full_noid=y
+CONFIG_PACKAGE_docker-ce=y
+# CONFIG_PACKAGE_etherwake is not set
+CONFIG_PACKAGE_findfs=y
+CONFIG_PACKAGE_frpc=y
+CONFIG_PACKAGE_frps=y
+CONFIG_PACKAGE_fuse-utils=y
+CONFIG_PACKAGE_glib2=y
+CONFIG_PACKAGE_gzip=y
+CONFIG_PACKAGE_haproxy=y
+CONFIG_PACKAGE_https-dns-proxy=y
+CONFIG_PACKAGE_ip6tables=y
+CONFIG_PACKAGE_ipmitool=y
+CONFIG_PACKAGE_ipt2socks=y
+CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
+CONFIG_PACKAGE_iptables-mod-extra=y
+CONFIG_PACKAGE_iptables-mod-ipopt=y
+# CONFIG_PACKAGE_iptables-mod-ipsec is not set
+CONFIG_PACKAGE_ipv6helper=y
+CONFIG_PACKAGE_kcptun-client=y
+CONFIG_PACKAGE_kmod-br-netfilter=y
+# CONFIG_PACKAGE_kmod-crypto-cbc is not set
+# CONFIG_PACKAGE_kmod-crypto-deflate is not set
+# CONFIG_PACKAGE_kmod-crypto-des is not set
+# CONFIG_PACKAGE_kmod-crypto-echainiv is not set
+# CONFIG_PACKAGE_kmod-crypto-hmac is not set
+# CONFIG_PACKAGE_kmod-crypto-md5 is not set
+CONFIG_PACKAGE_kmod-dax=y
+CONFIG_PACKAGE_kmod-dm=y
+CONFIG_PACKAGE_kmod-fs-autofs4=y
+CONFIG_PACKAGE_kmod-fs-btrfs=y
+CONFIG_PACKAGE_kmod-fuse=y
+CONFIG_PACKAGE_kmod-ifb=y
+CONFIG_PACKAGE_kmod-ikconfig=y
+# CONFIG_PACKAGE_kmod-ipsec is not set
+CONFIG_PACKAGE_kmod-ipt-conntrack-extra=y
+CONFIG_PACKAGE_kmod-ipt-extra=y
+CONFIG_PACKAGE_kmod-ipt-ipopt=y
+# CONFIG_PACKAGE_kmod-ipt-ipsec is not set
+CONFIG_PACKAGE_kmod-ipt-nat6=y
+CONFIG_PACKAGE_kmod-ipt-offload=y
+CONFIG_PACKAGE_kmod-iptunnel=y
+# CONFIG_PACKAGE_kmod-iptunnel6 is not set
+CONFIG_PACKAGE_kmod-lib-crc32c=y
+CONFIG_PACKAGE_kmod-lib-lzo=y
+CONFIG_PACKAGE_kmod-lib-raid6=y
+CONFIG_PACKAGE_kmod-lib-xor=y
+CONFIG_PACKAGE_kmod-lib-zstd=y
+CONFIG_PACKAGE_kmod-nf-flow=y
+CONFIG_PACKAGE_kmod-nf-ipvs=y
+CONFIG_PACKAGE_kmod-nf-nat6=y
+CONFIG_PACKAGE_kmod-sched-cake=y
+CONFIG_PACKAGE_kmod-sched-cake-virtual=y
+CONFIG_PACKAGE_kmod-sched-connmark=y
+CONFIG_PACKAGE_kmod-sched-core=y
+CONFIG_PACKAGE_kmod-sit=y
+CONFIG_PACKAGE_kmod-usb-printer=y
+CONFIG_PACKAGE_kmod-veth=y
+CONFIG_PACKAGE_libaio=y
+CONFIG_PACKAGE_libarchive=y
+CONFIG_PACKAGE_libattr=y
+CONFIG_PACKAGE_libbz2=y
+CONFIG_PACKAGE_libcap=y
+CONFIG_PACKAGE_libcap-bin=y
+CONFIG_PACKAGE_libcap-bin-capsh-shell="/bin/sh"
+CONFIG_PACKAGE_libcurl=y
+CONFIG_PACKAGE_libdb47=y
+CONFIG_PACKAGE_libdevmapper=y
+CONFIG_PACKAGE_libevent2=y
+CONFIG_PACKAGE_libexif=y
+CONFIG_PACKAGE_libexpat=y
+CONFIG_PACKAGE_libffi=y
+CONFIG_PACKAGE_libffmpeg-audio-dec=y
+CONFIG_PACKAGE_libflac=y
+CONFIG_PACKAGE_libfuse=y
+CONFIG_PACKAGE_libid3tag=y
+CONFIG_PACKAGE_libjpeg-turbo=y
+CONFIG_PACKAGE_libltdl=y
+CONFIG_PACKAGE_liblua5.3=y
+CONFIG_PACKAGE_liblzma=y
+CONFIG_PACKAGE_liblzo=y
+# CONFIG_PACKAGE_libminiupnpc is not set
+CONFIG_PACKAGE_libmount=y
+# CONFIG_PACKAGE_libnatpmp is not set
+CONFIG_PACKAGE_libnetfilter-conntrack=y
+CONFIG_PACKAGE_libnettle=y
+CONFIG_PACKAGE_libnetwork=y
+CONFIG_PACKAGE_libnfnetlink=y
+CONFIG_PACKAGE_libnss=y
+CONFIG_PACKAGE_libogg=y
+CONFIG_PACKAGE_libruby=y
+CONFIG_PACKAGE_libsqlite3=y
+CONFIG_PACKAGE_libssh2=y
+CONFIG_PACKAGE_libtirpc=y
+CONFIG_PACKAGE_libvorbis=y
+CONFIG_PACKAGE_libwebsockets-full=y
+CONFIG_PACKAGE_libxml2=y
+CONFIG_PACKAGE_libyaml=y
+CONFIG_PACKAGE_libzstd=y
+CONFIG_PACKAGE_lm-sensors-detect=y
+CONFIG_PACKAGE_lsblk=y
+# CONFIG_PACKAGE_luci-app-accesscontrol is not set
+CONFIG_PACKAGE_luci-app-adguardhome=y
+CONFIG_PACKAGE_luci-app-advanced-reboot=y
+# CONFIG_PACKAGE_luci-app-ddns is not set
+CONFIG_PACKAGE_luci-app-diag-core=y
+CONFIG_PACKAGE_luci-app-diskman=y
+CONFIG_PACKAGE_luci-app-diskman_INCLUDE_btrfs_progs=y
+CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk=y
+# CONFIG_PACKAGE_luci-app-ipsec-vpnd is not set
+# CONFIG_PACKAGE_luci-app-jd-dailybonus is not set
+CONFIG_PACKAGE_luci-app-netdata=y
+# CONFIG_PACKAGE_luci-app-nlbwmon is not set
+CONFIG_PACKAGE_luci-app-ntpc=y
+CONFIG_PACKAGE_luci-app-openclash=y
+CONFIG_PACKAGE_luci-app-passwall=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ChinaDNS_NG=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_NaiveProxy=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_kcptun=y
+CONFIG_PACKAGE_luci-app-qos=y
+# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_fuse-utils is not set
+# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
+# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
+# CONFIG_PACKAGE_luci-app-samba is not set
+CONFIG_PACKAGE_luci-app-smartdns=y
+CONFIG_PACKAGE_luci-app-sqm=y
+CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
+CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_NaiveProxy=y
+CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Redsocks2=y
+CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan=y
+CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_plugin=y
+# CONFIG_PACKAGE_luci-app-uugamebooster is not set
+# CONFIG_PACKAGE_luci-app-vsftpd is not set
+# CONFIG_PACKAGE_luci-app-webadmin is not set
+# CONFIG_PACKAGE_luci-app-wol is not set
+# CONFIG_PACKAGE_luci-app-xlnetacc is not set
+# CONFIG_PACKAGE_luci-app-zerotier is not set
+CONFIG_PACKAGE_luci-i18n-advanced-reboot-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-base-en=y
+CONFIG_PACKAGE_luci-i18n-bonding-en=y
+CONFIG_PACKAGE_luci-i18n-diag-core-en=y
+CONFIG_PACKAGE_luci-i18n-diag-core-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-firewall-en=y
+CONFIG_PACKAGE_luci-i18n-netdata-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-ntpc-en=y
+CONFIG_PACKAGE_luci-i18n-ntpc-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-qos-en=y
+CONFIG_PACKAGE_luci-i18n-qos-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-smartdns-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-sqm-en=y
+CONFIG_PACKAGE_luci-i18n-sqm-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-upnp-en=y
+CONFIG_PACKAGE_luci-lib-docker=y
+CONFIG_PACKAGE_luci-lib-json=y
+CONFIG_PACKAGE_luci-proto-ipv6=y
+CONFIG_PACKAGE_luci-theme-rosy=y
+CONFIG_PACKAGE_lvm2=y
+CONFIG_PACKAGE_lzmadec=y
+CONFIG_PACKAGE_lzmainfo=y
+CONFIG_PACKAGE_mc=y
+CONFIG_PACKAGE_minidlna=y
+CONFIG_PACKAGE_mount-utils=y
+CONFIG_PACKAGE_mwan3=y
+CONFIG_PACKAGE_naiveproxy=y
+CONFIG_PACKAGE_nano=y
+CONFIG_PACKAGE_netdata=y
+CONFIG_PACKAGE_nnn=y
+CONFIG_PACKAGE_node-request=y
+CONFIG_PACKAGE_nspr=y
+CONFIG_PACKAGE_ntpclient=y
+CONFIG_PACKAGE_odhcp6c=y
+CONFIG_PACKAGE_odhcp6c_ext_cer_id=0
+CONFIG_PACKAGE_odhcpd-ipv6only=y
+CONFIG_PACKAGE_odhcpd_ipv6only_ext_cer_id=0
+CONFIG_PACKAGE_open-vm-tools=y
+CONFIG_PACKAGE_open-vm-tools-fuse=y
+CONFIG_PACKAGE_p910nd=y
+CONFIG_PACKAGE_parted=y
+CONFIG_PACKAGE_perl=y
+CONFIG_PACKAGE_perlbase-base=y
+CONFIG_PACKAGE_perlbase-bytes=y
+CONFIG_PACKAGE_perlbase-class=y
+CONFIG_PACKAGE_perlbase-config=y
+CONFIG_PACKAGE_perlbase-cwd=y
+CONFIG_PACKAGE_perlbase-errno=y
+CONFIG_PACKAGE_perlbase-essential=y
+CONFIG_PACKAGE_perlbase-fcntl=y
+CONFIG_PACKAGE_perlbase-file=y
+CONFIG_PACKAGE_perlbase-filehandle=y
+CONFIG_PACKAGE_perlbase-i18n=y
+CONFIG_PACKAGE_perlbase-integer=y
+CONFIG_PACKAGE_perlbase-io=y
+CONFIG_PACKAGE_perlbase-list=y
+CONFIG_PACKAGE_perlbase-locale=y
+CONFIG_PACKAGE_perlbase-params=y
+CONFIG_PACKAGE_perlbase-posix=y
+CONFIG_PACKAGE_perlbase-re=y
+CONFIG_PACKAGE_perlbase-scalar=y
+CONFIG_PACKAGE_perlbase-selectsaver=y
+CONFIG_PACKAGE_perlbase-socket=y
+CONFIG_PACKAGE_perlbase-symbol=y
+CONFIG_PACKAGE_perlbase-tie=y
+CONFIG_PACKAGE_perlbase-unicore=y
+CONFIG_PACKAGE_perlbase-utf8=y
+CONFIG_PACKAGE_perlbase-xsloader=y
+CONFIG_PACKAGE_pigz=y
+CONFIG_PACKAGE_qos-scripts=y
+CONFIG_PACKAGE_rclone=y
+CONFIG_PACKAGE_rclone-ng=y
+CONFIG_PACKAGE_rclone-webui-react=y
+CONFIG_PACKAGE_redsocks2=y
+CONFIG_PACKAGE_ruby=y
+CONFIG_PACKAGE_ruby-bigdecimal=y
+CONFIG_PACKAGE_ruby-date=y
+CONFIG_PACKAGE_ruby-dbm=y
+CONFIG_PACKAGE_ruby-digest=y
+CONFIG_PACKAGE_ruby-enc=y
+CONFIG_PACKAGE_ruby-pstore=y
+CONFIG_PACKAGE_ruby-psych=y
+CONFIG_PACKAGE_ruby-stringio=y
+CONFIG_PACKAGE_ruby-strscan=y
+CONFIG_PACKAGE_ruby-yaml=y
+CONFIG_PACKAGE_runc=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-server=y
+CONFIG_PACKAGE_smartdns=y
+CONFIG_PACKAGE_smartmontools=y
+CONFIG_PACKAGE_sqm-scripts=y
+CONFIG_PACKAGE_ssocks=y
+CONFIG_PACKAGE_ssocksd=y
+# CONFIG_PACKAGE_strongswan is not set
+CONFIG_PACKAGE_tc=y
+CONFIG_PACKAGE_tini=y
+CONFIG_PACKAGE_tree=y
+CONFIG_PACKAGE_trojan=y
+CONFIG_PACKAGE_trojan-go=y
+CONFIG_PACKAGE_trojan-plus=y
+CONFIG_PACKAGE_ttyd=y
+CONFIG_PACKAGE_uclibcxx=y
+CONFIG_PACKAGE_unrar=y
+CONFIG_PACKAGE_unzip=y
+CONFIG_PACKAGE_v2ray-plugin=y
+# CONFIG_PACKAGE_vsftpd-alt is not set
+# CONFIG_PACKAGE_wol is not set
+CONFIG_PACKAGE_xray-geodata=y
+CONFIG_PACKAGE_xz=y
+CONFIG_PACKAGE_xz-utils=y
+CONFIG_PACKAGE_xzdec=y
+CONFIG_PACKAGE_xzdiff=y
+CONFIG_PACKAGE_xzgrep=y
+CONFIG_PACKAGE_xzless=y
+CONFIG_PACKAGE_xzmore=y
+# CONFIG_PACKAGE_zerotier is not set
+CONFIG_PACKAGE_zstd=y
+CONFIG_PERL_NOCOMMENT=y
+CONFIG_PERL_THREADS=y
+CONFIG_SQLITE3_DYNAMIC_EXTENSIONS=y
+CONFIG_SQLITE3_FTS3=y
+CONFIG_SQLITE3_FTS4=y
+CONFIG_SQLITE3_FTS5=y
+CONFIG_SQLITE3_JSON1=y
+CONFIG_SQLITE3_RTREE=y
+CONFIG_TARGET_IMAGES_GZIP=y
+CONFIG_TARGET_ROOTFS_PARTSIZE=361
+CONFIG_TROJAN_GO_COMPRESS_UPX=y
+# CONFIG_VMDK_IMAGES is not set
+CONFIG_ZSTD_OPTIMIZE_O3=y
+CONFIG_boost-compile-visibility-hidden=y
+CONFIG_boost-runtime-shared=y
+CONFIG_boost-static-and-shared-libs=y
+CONFIG_boost-variant-release=y
+# CONFIG_v2ray-plugin_INCLUDE_GOPROXY is not set
+CONFIG_PACKAGE_SAMBA_MAX_DEBUG_LEVEL=-1
+CONFIG_PACKAGE_kmod-tun=y
+CONFIG_PACKAGE_nlbwmon=y
+CONFIG_PACKAGE_samba36-server=y
+CONFIG_PACKAGE_uugamebooster=y
+CONFIG_PACKAGE_wsdd2=y
