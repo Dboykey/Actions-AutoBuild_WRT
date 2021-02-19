@@ -32,7 +32,7 @@ echo "src-git ldockerman https://github.com/lisaac/luci-lib-docker" >>feeds.conf
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy
 
 # 添加vssr
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+#git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 
 # package/lean/default-settings/files/zzz-default-settings
 ##找到字符串“uci commit luci”后，在前面增加一行
