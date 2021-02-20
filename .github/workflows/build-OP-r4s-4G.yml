@@ -1,4 +1,4 @@
-name: Build NanoPi R2S OpenWrt
+name: Build NanoPi R4S 4GB OpenWrt
 
 on:
   repository_dispatch:
