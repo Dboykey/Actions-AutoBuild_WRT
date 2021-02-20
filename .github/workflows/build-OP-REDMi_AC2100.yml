@@ -1,4 +1,4 @@
-name: Build NanoPi R2S OpenWrt
+name: Build REDMI AC2100 OpenWrt
 
 on:
   repository_dispatch:
