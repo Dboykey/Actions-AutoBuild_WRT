@@ -23,7 +23,7 @@ echo "src-git luci https://github.com/coolsnowwolf/luci" >>feeds.conf.default
 echo "src-git routing https://git.openwrt.org/feed/routing.git" >>feeds.conf.default
 echo "src-git helloworld https://github.com/fw876/helloworld" >>feeds.conf.default
 echo "src-git OpenClash https://github.com/vernesong/OpenClash.git;master" >>feeds.conf.default
-echo "src-git lienol https://github.com/Lienol/openwrt-package.git;main" >>feeds.conf.default
+#echo src-git lienol https://github.com/Lienol/openwrt-package.git;main" >>feeds.conf.default
 echo "src-git diy1 https://github.com/xiaorouji/openwrt-passwall.git;main" >>feeds.conf.default
 echo "src-git adockerman https://github.com/lisaac/luci-app-dockerman" >>feeds.conf.default
 echo "src-git ldockerman https://github.com/lisaac/luci-lib-docker" >>feeds.conf.default
