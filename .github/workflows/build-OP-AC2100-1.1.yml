@@ -1,4 +1,4 @@
-name: 编译“红米 AC2100”OpenWrt 固件
+name: 编译“红米 AC2100” 1.1G
 
 on:
   repository_dispatch:
