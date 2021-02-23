@@ -51,10 +51,6 @@ jobs:
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
-        #git clone -b 19.07 https://github.com/Lienol/openwrt.git Lienol
-        #cd $GITHUB_WORKSPACE/Lienol
-        #./scripts/feeds update -a
-        #./scripts/feeds install -a
 
     - name: feeds 前置设置
       run: |
