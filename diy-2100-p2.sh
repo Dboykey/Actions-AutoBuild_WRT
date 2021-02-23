@@ -29,3 +29,7 @@ rm -rf package/lean/simple-obfs
 rm -rf package/lean/trojan
 rm -rf package/lean/v2ray-plugin
 rm -rf package/lean/xray-plugin
+
+# 补完ipmitool
+rm -rf feeds/packages/admin/ipmitool
+mv package/CKdiy/ipmitool feeds/packages/admin/
