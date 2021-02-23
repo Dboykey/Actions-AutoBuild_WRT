@@ -23,6 +23,7 @@ git clone -b master https://github.com/vernesong/OpenClash.git package/OpenClash
 # 添加adguardhome、smartdns
 git clone https://github.com/Dboykey/CKdiy.git package/CKdiy
 rm -rf feeds/packages/admin/ipmitool
+mv package/CKdiy/ipmitool feeds/packages/admin/
 
 # package/lean/default-settings/files/zzz-default-settings
 ##找到字符串“uci commit luci”后，在前面增加一行
