@@ -72,7 +72,7 @@ jobs:
         chmod +x $DIY_P2_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
-        rm -rf log/ tmp/ staging_dir/
+        rm -rf logs/ tmp/ staging_dir/
         ./scripts/feeds install -a
 
     - name: SSH connection to Actions
