@@ -33,3 +33,33 @@ rm -rf package/lean/xray-plugin
 # 补完ipmitool
 rm -rf feeds/packages/admin/ipmitool
 mv package/CKdiy/ipmitool feeds/packages/admin/
+
+# 补完golang
+rm -rf feeds/packages/lang/golang
+mv package/CKdiy/golang feeds/packages/lang/
+
+# 补完packr
+mv package/CKdiy/packr feeds/packages/devel/
+
+# 添加一些方便在ssh使用的alias
+alias cls='clear'
+alias df='df -h'
+alias duu='du -sh'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias fname='func() { find -name *$1*;}; func'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias lh='ls -lh'
+alias lha='lh -a'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+alias md='mkdir -p'
+alias psg='ps ax | grep'
+alias rm='rm -rf'
+alias upcls='./scripts/feeds clean'
+alias upfeed='./scripts/feeds update -a && ./scripts/feeds install -a'
+alias upins='./scripts/feeds install -a'
+alias upup='source ~/.bashrc'
+ln -s package/lean/default-settings/files/zzz-default-settings
