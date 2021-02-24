@@ -37,5 +37,5 @@ sed -i "/uci commit luci/a\\ " package/lean/default-settings/files/zzz-default-s
 
 # Openwrt固件的超频1100Mhz设置
 #target/linux/ramips/patches-4.14/102-mt7621-fix-cpu-clk-add-clkdev.patch
-rm target/linux/ramips/patches-4.14/102-mt7621-fix-cpu-clk-add-clkdev.patch
-cp package/CKdiy/AC2100/102-mt7621-fix-cpu-clk-add-clkdev.patch target/linux/ramips/patches-4.14/
+#rm target/linux/ramips/patches-4.14/102-mt7621-fix-cpu-clk-add-clkdev.patch
+#cp package/CKdiy/AC2100/102-mt7621-fix-cpu-clk-add-clkdev.patch target/linux/ramips/patches-4.14/
