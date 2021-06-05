@@ -21,7 +21,7 @@ touch feeds.conf.default
 echo "src-git packages https://github.com/coolsnowwolf/packages" >>feeds.conf.default
 echo "src-git luci https://github.com/coolsnowwolf/luci" >>feeds.conf.default
 echo "src-git routing https://git.openwrt.org/feed/routing.git" >>feeds.conf.default
-echo "src-git helloworld https://github.com/fw876/helloworld" >>feeds.conf.default
+#echo "src-git helloworld https://github.com/fw876/helloworld" >>feeds.conf.default
 echo "src-git OpenClash https://github.com/vernesong/OpenClash.git;master" >>feeds.conf.default
 #echo src-git lienol https://github.com/Lienol/openwrt-package.git;main" >>feeds.conf.default
 echo "src-git diy1 https://github.com/xiaorouji/openwrt-passwall.git;main" >>feeds.conf.default
@@ -31,11 +31,20 @@ echo "src-git ldockerman https://github.com/lisaac/luci-lib-docker" >>feeds.conf
 # 添加Rosy
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
 
+# 添加ddnsto
+git clone https://github.com/linkease/ddnsto-openwrt.git package/lean/ddnsto
+
 # 添加vssr
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
+#git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
+#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
+#rm -rf package/lean/luci-theme-argon
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+
+# 添加bypass
+git clone https://github.com/garypang13/luci-app-bypass.git package/lean/luci-app-bypass
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
-rm -rf package/lean/luci-theme-argon
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+git clone https://github.com/garypang13/smartdns-le.git package/lean/smartdns-le
+git clone https://github.com/garypang13/luci-app-dnsfilter.git package/lean/luci-app-dnsfilter
 
 # package/lean/default-settings/files/zzz-default-settings
 ##找到字符串“uci commit luci”后，在前面增加一行
