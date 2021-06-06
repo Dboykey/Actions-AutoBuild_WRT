@@ -64,9 +64,6 @@ jobs:
         ln -s ~/work/Actions-AutoBuild_WRT/Actions-AutoBuild_WRT/Lienol-packages/utils/docker
         ln -s ~/work/Actions-AutoBuild_WRT/Actions-AutoBuild_WRT/Lienol-packages/utils/dockerd
         rm -rf luci-app-docker
-        cd ../../
-        rm ./feeds/packages/utils/docker-ce
-        rm ./feeds/packages/utils/docker-compose
 
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
@@ -82,6 +79,8 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
         rm -rf tmp/ staging_dir/
+        rm -rf ./feeds/packages/utils/docker-ce
+        rm -rf ./feeds/packages/utils/docker-compose
         ./scripts/feeds install -a
 
     - name: SSH connection to Actions
