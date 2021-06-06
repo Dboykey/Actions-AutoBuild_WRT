@@ -61,8 +61,8 @@ jobs:
         cd ..
         git clone https://github.com/Lienol/openwrt-packages.git Lienol-packages
         cd openwrt/package/lean/
-        ln -s ../../../Lienol-packages/utils/docker
-        ln -s ../../../Lienol-packages/utils/dockerd
+        ln -s ~/work/Actions-AutoBuild_WRT/Actions-AutoBuild_WRT/Lienol-packages/utils/docker
+        ln -s ~/work/Actions-AutoBuild_WRT/Actions-AutoBuild_WRT/Lienol-packages/utils/dockerd
 
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
