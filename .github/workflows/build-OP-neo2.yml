@@ -58,6 +58,11 @@ jobs:
         chmod +x $DIY_P1_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
+        cd ..
+        git clone https://github.com/Lienol/openwrt-packages.git Lienol-packages
+        cd openwrt/package/lean/
+        ln -s ../../../Lienol-packages/utils/docker
+        ln -s ../../../Lienol-packages/utils/dockerd
 
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
